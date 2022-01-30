@@ -1,0 +1,21 @@
+img {
+    width: 100%;
+}
+
+.blog-content {
+    padding: 20px;
+    overflow: hidden;
+    
+    h4 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    p {
+        height: 100px;
+        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+        overflow: hidden;
+    }
+}

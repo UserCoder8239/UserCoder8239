@@ -1,0 +1,32 @@
+.view-conatiner {
+  width: 80%;
+  margin: auto;
+
+  h3 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 40px 0 20px;
+  }
+  h4 {
+    .post-time {
+      font-style: italic;
+    }
+
+    .owner {
+      font-weight: bold;
+    }
+  }
+
+  .view-img img {
+    display: block;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: justify;
+  }
+}

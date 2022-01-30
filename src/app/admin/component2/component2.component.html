@@ -1,0 +1,13 @@
+
+<div class="view-conatiner">
+    <h3>{{routeParamsInfo.title}}</h3>
+    <h4><span class="post-time"> {{routeParamsInfo.date | date:'medium' }} </span> Posted By <span class="owner"> {{routeParamsInfo.firstName | titlecase}} {{routeParamsInfo.lastName | titlecase}} </span></h4>
+    <div class="view-img">
+        <img [src]="routeParamsInfo.imgURL" alt="">
+    </div>
+    <p>{{routeParamsInfo.body}}</p>
+    <br>
+    <p>{{routeParamsInfo.body}}</p>
+    <br>
+    <p>{{routeParamsInfo.body}}</p>
+</div>

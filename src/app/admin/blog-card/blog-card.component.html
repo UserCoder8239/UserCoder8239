@@ -1,0 +1,9 @@
+<div (click)="viewBlogInfo()">
+    <div class="blog-img">
+        <img [src]="blogInfo.imgURL" alt="">
+    </div>
+    <div class="blog-content">
+        <h4 class="blog-title">{{blogInfo.title}}</h4>
+        <p>{{blogInfo.description}}</p>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+<!-- {{dumyData}} -->
+
+<div class="blog-container">
+    <div class="title">
+        <h2>Blog Content</h2>
+    </div>
+    <div class="cards">
+        <div class="card" *ngFor="let dummy of dumyData">
+            <app-blog-card [blogInfo]="dummy" (viewBlog)="viewBlogInfo($event)"></app-blog-card>
+        </div>
+    </div>
+</div>
